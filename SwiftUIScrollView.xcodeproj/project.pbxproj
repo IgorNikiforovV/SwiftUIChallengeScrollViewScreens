@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB28D60F29CA1C9D005D0FAF /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28D60E29CA1C9D005D0FAF /* Topic.swift */; };
+		CB28D61529CAB62D005D0FAF /* Extension + View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28D61429CAB62D005D0FAF /* Extension + View.swift */; };
 		CBFF9BA229C367D200D7F2E5 /* SwiftUIScrollViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF9BA129C367D200D7F2E5 /* SwiftUIScrollViewApp.swift */; };
 		CBFF9BA429C367D200D7F2E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF9BA329C367D200D7F2E5 /* ContentView.swift */; };
 		CBFF9BA629C367D500D7F2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFF9BA529C367D500D7F2E5 /* Assets.xcassets */; };
 		CBFF9BA929C367D500D7F2E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFF9BA829C367D500D7F2E5 /* Preview Assets.xcassets */; };
+		CBFF9BB229C3685300D7F2E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF9BB129C3685300D7F2E5 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB28D60E29CA1C9D005D0FAF /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		CB28D61429CAB62D005D0FAF /* Extension + View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + View.swift"; sourceTree = "<group>"; };
 		CBFF9B9E29C367D200D7F2E5 /* SwiftUIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFF9BA129C367D200D7F2E5 /* SwiftUIScrollViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollViewApp.swift; sourceTree = "<group>"; };
 		CBFF9BA329C367D200D7F2E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBFF9BA529C367D500D7F2E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFF9BA829C367D500D7F2E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBFF9BB129C3685300D7F2E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB28D60D29CA1C89005D0FAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB28D60E29CA1C9D005D0FAF /* Topic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB28D61029CA239A005D0FAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF9BB129C3685300D7F2E5 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB28D61329CAB606005D0FAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB28D61429CAB62D005D0FAF /* Extension + View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CBFF9B9529C367D200D7F2E5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +81,9 @@
 		CBFF9BA029C367D200D7F2E5 /* SwiftUIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				CB28D61329CAB606005D0FAF /* Extensions */,
+				CB28D61029CA239A005D0FAF /* View */,
+				CB28D60D29CA1C89005D0FAF /* Model */,
 				CBFF9BA129C367D200D7F2E5 /* SwiftUIScrollViewApp.swift */,
 				CBFF9BA329C367D200D7F2E5 /* ContentView.swift */,
 				CBFF9BA529C367D500D7F2E5 /* Assets.xcassets */,
@@ -137,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB28D61529CAB62D005D0FAF /* Extension + View.swift in Sources */,
+				CB28D60F29CA1C9D005D0FAF /* Topic.swift in Sources */,
 				CBFF9BA429C367D200D7F2E5 /* ContentView.swift in Sources */,
+				CBFF9BB229C3685300D7F2E5 /* CardView.swift in Sources */,
 				CBFF9BA229C367D200D7F2E5 /* SwiftUIScrollViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
