@@ -1,5 +1,5 @@
 # SwiftUIChallengeScrollViewScreens
-Simple screen with ScrollViews
+Simple screen with ScrollViews in SwiftUI
 
 **Goals**
 1. to try using scrollview in various scenarios for content navigation
